@@ -98,7 +98,7 @@ const equal = () => {
         input.textContent = ((x / y).toFixed(10) * 100) / 100
         actual.textContent = `${x} / ${y} =`
     } 
-    
+    checkLength()
 }
 
 clearBtn.addEventListener('click', clearArea);
