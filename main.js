@@ -4,10 +4,6 @@ const clearBtn = document.querySelector('.clear');
 const backBtn = document.querySelector('.back');
 const calcBtns = document.querySelectorAll('.calc-btn');
 const operationBtns = document.querySelectorAll('.operation')
-const plusBtn = document.querySelector('.plus');
-const subtractBtn = document.querySelector('.subtract');
-const multiplyBtn = document.querySelector('.multiply');
-const divisionBtn = document.querySelector('.division');
 const equalBtn = document.querySelector('.equal');
 const changeBtn = document.querySelector('.change')
 
