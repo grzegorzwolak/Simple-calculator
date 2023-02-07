@@ -48,7 +48,7 @@ const typeActual = (el) => {
 };
 
 const checkLength = () => {
-	if (input.textContent.length > 8 || actual.textContent.length > 8) {
+	if (input.textContent.length > 8 || actual.textContent.length > 16) {
 		input.style.fontSize = '16px';
 		actual.style.fontSize = '10px';
 	} else {
